@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $MODE="online" ]; then
+if [ "$MODE"="online" ]; then
   echo "Mode is online"
   cd /app/rosetta-aleo-test
   pm2-runtime ./start_online.json
