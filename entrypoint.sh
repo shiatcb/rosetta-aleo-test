@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if [ "$MODE" = "online" ]; then
   echo "Mode is online"
   cd /app/rosetta-aleo-test
