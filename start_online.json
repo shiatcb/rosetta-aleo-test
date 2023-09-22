@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "Aleo Rosetta API Server",
+      "script": "/app/rosetta-aleo-test/dist/index.js",
+      "exec_mode": "cluster",
+      "instances": "2",
+      "autorestart": true,
+      "env": {},
+      "out_file": "/data/logs/rosetta.log",
+      "error_file": "/data/logs/rosetta_error.log"
+    }
+  ]
+}
