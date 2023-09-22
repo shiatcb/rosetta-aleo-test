@@ -21,4 +21,4 @@ RUN npm ci && npm run build
 RUN npm install -g pm2
 EXPOSE 8080
 
-ENTRYPOINT [ "sh", "./entrypoint.sh" ]
+ENTRYPOINT [ "./entrypoint.sh" ]
