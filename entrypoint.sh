@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ "$MODE" = "online" ]; then
   echo "Mode is online"
